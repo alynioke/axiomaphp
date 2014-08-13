@@ -1,0 +1,120 @@
+body {
+	font-size:16px;
+	color:black;
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration: none;
+	color: #006699;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	padding:0px;
+}
+li {
+	float:left;
+}
+
+.nav>li>a {
+	padding:30px;
+}
+.nav{
+	list-style: none;
+	height: 30px;
+
+}
+
+.noPageError {
+	display: block;
+	width:215px;
+}
+
+.formHeading {
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #006699;
+}
+.workersTable {
+	width: 900px;
+	text-align: center;
+}
+.positionsTable {
+	width:500px;
+	text-align: center;
+}
+table {
+	width: 900px;
+	text-align: center;
+}
+td, th {
+	border:1px solid #dadada;
+}
+
+.editdelete {
+	width:120px;
+}
+
+.success {
+	background-color: #66CC99;
+}
+.err {
+	background-color: #CC6666;
+}
+.success, .err {
+	display: none;
+	color:white;
+	padding: 8px;
+	font-weight: bold;
+	width: auto;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.error {
+	border:1px solid red;
+}
+
+.messages {
+	cursor: pointer;
+}
+#form, .messages {
+	width:250px;
+}
+input, textarea, select {
+	width: 100%;
+	display: block;
+	text-align: left;
+	padding: 2px 3px;
+}
+label {
+	margin-top:15px;
+	display: block;
+}
+.send {
+	background-color: #3366CC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px 10px;
+	margin-top: 10px;
+	clear: both;
+	float: right;
+	width: 100px;
+	text-align: center;
+}
+#send {
+	margin-top:0px;
+	cursor: pointer;
+	font-weight: bold;
+	color:white;
+}
+
+.content {
+	margin-left:30px;
+}
